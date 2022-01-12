@@ -46,6 +46,3 @@ document.getElementById("currentdate").textContent = fulldate;
 // }
 
 
-let latestDate = new Date(document.lastModified);
-document.getElementById("lastmodified").innerHTML = latestDate;
-console.log(latestDate)
