@@ -49,3 +49,20 @@ main {
 footer p {
     width: 100%;
 }
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    background: #333;
+    margin: 10px auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+
+p {
+    text-align: center;
+}
