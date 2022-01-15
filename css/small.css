@@ -1,27 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
 
-* {
+/* * {
     justify-items: center;
-    margin: auto 10%; 
+    margin: 0 auto; 
     padding: 0;
     box-sizing: border-box;
+} */
+
+header {
+    /* max-width: 350px; */
+    margin-top: 20px;
+    margin: 0 auto; 
 }
 
-/* h1 { 
-    font-size: 2em;
+h1 { 
+    font-size: 100%;
+    text-align: center;
 }
 
 h2 {
     font-size: 1rem;
-} */
+}
+
+img {
+    max-width: 140px;
+    width: 50%;
+    padding: 5px;
+}
 
 body {
     font-family: 'Saira Condensed', sans-serif;;
 }
 
-.container {
+.container, .container2 {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     color: #fff;
     background: #333;
     margin: 10px auto;
@@ -38,13 +52,15 @@ main {
     text-align: left;
     margin: auto;
     padding: 10px;
+    max-width: 500px;
 }
 
 footer p {
+    margin: 0 auto;
     width: 100%;
 }
 
-.container2 {
+/* .container2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,7 +71,7 @@ footer p {
     align-items: center;
     border-radius: 10px;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-}
+} */
 
 p {
     text-align: center;
