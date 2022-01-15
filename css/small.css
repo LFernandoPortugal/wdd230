@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+@media only screen and (max-width: 32.5em) {
+    h1 { 
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 50%;
+        padding: 5px;
+    }
+}
 
 * {
     justify-items: center;
@@ -6,6 +20,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* h1 { 
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1rem;
+} */
 
 body {
     font-family: 'Saira Condensed', sans-serif;;
@@ -30,12 +52,7 @@ body {
     text-align: center;
 }
 
-img {
-    width: 50%;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-}
+
 
 a {
     margin: 5px;
