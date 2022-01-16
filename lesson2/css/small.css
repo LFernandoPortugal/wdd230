@@ -66,6 +66,7 @@ a:hover {
     background-color: rgba(0, 107, 184, .3);
 }
 
+/* footer */
 .bottom {
     color: #006BB8;
     display: block;
@@ -73,5 +74,5 @@ a:hover {
     padding: 10px;
     background-color: #0A2E36;
     margin: 10px auto;
-    width: 100%;
+    font-weight: bold;
 }
