@@ -1,0 +1,36 @@
+@media only screen and (min-width: 60em) {
+    body{
+        background-color: #14CC60;
+        color: #14CC60;
+        max-width: 1080px;
+        margin: 0 auto  ;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        grid-gap: 4em;
+        justify-content: space-evenly; 
+        justify-items: center;
+        padding: 3em;
+    }
+    
+    section{
+        box-shadow: 15px 5px 15px 5px rgba(10, 46, 54, 0.50);
+        background-color: #0A2E36;
+    }
+
+    .contrast {
+        grid-column: auto;
+    }
+
+    .sectionP{
+        line-height : 2em;
+        padding: 1em;
+        text-align: left;
+    }
+    header {
+        font-size: 100%;
+    }
+}
