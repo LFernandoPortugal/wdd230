@@ -35,7 +35,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    grid-gap: 4em;
+    grid-gap: 3em;
     justify-content: space-evenly; 
     justify-items: center;
     padding: 1.5em;
