@@ -2,7 +2,6 @@
     main{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        /* grid-column: span 2; */
     }
     .contrast {
         grid-column: 1/3;
