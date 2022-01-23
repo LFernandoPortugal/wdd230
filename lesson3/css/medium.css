@@ -33,4 +33,8 @@
     .table_img {
         display: none;
     }
+    .palette {
+        text-align: left;
+        font-size: 100%;
+    }
 }

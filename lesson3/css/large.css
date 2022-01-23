@@ -82,7 +82,10 @@
         background-color: #006BB8;
         color: white;
     }
-
+    .palette {
+        text-align: left;
+        font-size: 100%;
+    }
     .table_img {
         display: none;
     }
