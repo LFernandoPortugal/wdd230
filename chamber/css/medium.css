@@ -1,0 +1,40 @@
+@media only screen and (min-width: 37.5em) {
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline;
+    }
+    
+    .menu_items {
+        display: flex;
+        padding-inline-start: 0;
+        list-style: none;
+        margin: auto;
+    }
+
+    .menu_items li {
+        margin: auto;
+    }
+
+    .menu_items li a {
+        padding: 0 25px;
+        display: block;
+    }
+    
+    header {
+        font-size: 90%;
+    }
+    
+    .table_img {
+        display: none;
+    }
+    .palette {
+        text-align: left;
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,92 @@
+@media only screen and (min-width: 60em) {
+    body{
+        background-color: #14CC60;
+        color: #14CC60;
+        max-width: 1080px;
+        margin: 0 auto  ;
+    }
+
+    h2 {
+        padding: 0 0 15px 0;
+    }
+    
+    .logo {
+        display: inline;
+    }
+
+    main{
+        text-align: center;
+        justify-content: space-evenly; 
+        justify-items: center;
+        padding: 3em;
+    }
+/* nav */
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+/* ul */
+    .menu_items {
+        display: flex;
+        padding-inline-start: 0;
+        list-style: none;
+    }    
+    
+    .menu_items li {
+        padding: 0 20px;
+        margin: 0 40px;
+    }
+
+    .menu_items li a {
+        padding: 7px 13px;
+        display: block;
+    }
+
+    section{
+        box-shadow: 15px 5px 15px 5px rgba(10, 46, 54, 0.50);
+        background-color: #0A2E36;
+    }
+
+    header {
+        font-size: 100%;
+    }
+
+    .colors {
+        width: 100%;
+        min-width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+    .colors th {
+        background-color: #000000;
+    }
+    .colors td{
+        width: 25%;
+        height: 3em;
+    }
+    
+    .primary {
+        background-color: #0A2E36;
+        color: white;
+    }
+    .secondary {
+        background-color: #27FB6B;
+        color: black;
+    }
+    .accent1 {
+        background-color: #14CC60;
+        color: black;
+    }
+    .accent2{
+        background-color: #006BB8;
+        color: white;
+    }
+    .palette {
+        text-align: left;
+        font-size: 100%;
+    }
+    .table_img {
+        display: none;
+    }
+}
