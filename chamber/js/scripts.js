@@ -8,12 +8,18 @@ document.getElementById("currentyear").innerHTML = year1;
 let latestDate = document.lastModified
 document.getElementById("lastmodified").innerHTML = latestDate;
 
+
+// hamburger button
 function toggleMenu() {
     document.getElementById("nav").classList.toggle("open");
+	document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 
 const y = document.getElementById("hamburgerBtn")
 y.onclick = toggleMenu;
+
+
+
 
 // select the elements to manipulate (output to)
 const datefield = document.querySelector("date");

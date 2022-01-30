@@ -38,6 +38,12 @@ header a, header a:hover {
     align-items: center;
 }
 
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
 .menu button {
     margin: .2rem 2vw;
     background: transparent;
@@ -52,7 +58,8 @@ header a, header a:hover {
     list-style: none;
 }   
 
-.menu_items.open  {display: block;}
+nav .menu_items.open {display: none;}
+nav .menu_items.open  {display: block;}
 
 .menu_items li a {
     display: block;
