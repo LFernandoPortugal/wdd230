@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 1080px) {
     body{
         background-color: #14CC60;
         color: #14CC60;
@@ -11,7 +11,7 @@
     }
     
     .logo {
-        display: inline;
+        width: 100%;
     }
 
     main{
@@ -26,22 +26,25 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .menu button {display: none;}
 /* ul */
     .menu_items {
         display: flex;
         padding-inline-start: 0;
         list-style: none;
     }    
-    
+
     .menu_items li {
-        padding: 0 20px;
-        margin: 0 40px;
+        display: block;
+        flex: 1 1 auto;
     }
 
     .menu_items li a {
-        padding: 7px 13px;
-        display: block;
+        padding: .5rem 1rem;
+        text-align: center;
     }
+
 
     section{
         box-shadow: 15px 5px 15px 5px rgba(10, 46, 54, 0.50);
