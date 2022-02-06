@@ -11,7 +11,9 @@
     .logo {
         width: 180px;
     }
-    
+    .menu {
+        height: 100px;
+    }
     .menu_items li a {
         padding: 0 25px;
         border: none;
@@ -30,13 +32,26 @@
     main section {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
     }
 
     .hero {
         grid-area: 1/ 1/ 1/ 6;
     }
-    
+    #hero-img {
+        height: 30em;
+    }
+    #hero-text {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        font-size: 20px;
+    }
+    #hero-button {
+        top: 80%;
+        left: 70%;
+        padding: 10px 15px;
+    }
+
     .news {
         grid-area: 2/ 1/ 2 /6;
     }

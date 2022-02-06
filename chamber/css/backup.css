@@ -1,0 +1,104 @@
+
+/* part of base css */
+header a, header a:hover {
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+.menu button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+.menu_items {
+    display: none;
+    padding-inline-start: 0;
+    list-style: none;
+}   
+
+nav .menu_items.open {display: none;}
+nav .menu_items.open  {display: block;}
+
+.menu_items li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5) ;
+}
+
+.menu_items li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #27FB6B;
+}
+
+.menu_items li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+/* _______________________________________ */
+/* Second attempt */
+.menu {
+    height: calc(100% - 6px);
+    overflow-y:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.hamburgerBtn {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu_items {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0, 0, 0, 0.95);
+    text-align: center;
+    transition: all .5s;
+}
+.menu_items li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+.menu_items li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu_items li a.active, .menu_items li a:hover {
+    color: rgb(255, 0, 0);
+    transition: .3s;
+}
+#check {
+    display: none;
+}
+#check:checked ~ .menu_items {
+    height: 100vh;
+}
+#check:checked ~ .menu_items li {
+    display: block;
+}
+/* __________________________________________ */
