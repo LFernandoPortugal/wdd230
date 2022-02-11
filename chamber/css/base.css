@@ -68,7 +68,14 @@ header a, header a:hover {
 }   
 
 nav .menu_items.open {display: none;}
-nav .menu_items.open  {display: block;}
+nav .menu_items.open  {display: block;
+    position: absolute;
+    background: white;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    top: 152px;
+}
 
 .menu_items li a {
     display: block;
