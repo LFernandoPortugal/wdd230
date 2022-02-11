@@ -13,11 +13,11 @@
 // clean up the successful add of a chapter by changing the input to nothing or the empty string and setting the focus to the input.
 
     
-const input = document.querySelector("favchap");
+const input = document.querySelector("input");
 const button = document.querySelector("button");
 const list = document.querySelector(".list");
 
-button-setAttribute("disabled",true);
+button.setAttribute("disabled",true);
 
 button.addEventListener('click', function() {
     const li = document.createElement("li");
@@ -41,7 +41,7 @@ function cleanInput () {
     button.setAttribute("disabled",true)
 }
 
-input.addEventListener("favchap", function () {
+input.addEventListener("input", function () {
     if (input.value != '' && input.value != null )
         button.removeAttribute("disabled");
     else
