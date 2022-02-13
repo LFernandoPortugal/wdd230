@@ -39,8 +39,6 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
-
-
 // banner script
 let banner = document.querySelector('#top-banner')
 const weekDay = x.getDay()
@@ -51,3 +49,4 @@ if (weekDay == 1 || weekDay == 2) {
 else {
     banner.style.display = 'none';
 }
+

@@ -70,7 +70,7 @@ header a, header a:hover {
 nav .menu_items.open {display: none;}
 nav .menu_items.open  {display: block;
     position: absolute;
-    background: white;
+    background: #0A2E36;
     width: 100%;
     left: 0;
     z-index: 999;

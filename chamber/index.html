@@ -20,7 +20,7 @@
 <body>
     <header>
         <div>
-        <a href="index.html"><img class="logo" src="images/logo_new.png" 
+        <a href="index.html"><img class="logo" src="images/logo_new.webp" 
             alt="Navigation Logo"></a>
         <h1>Effects Experts Chamber</h1>
         <div class="social">
@@ -49,7 +49,11 @@
         </div>
         <section>
             <div class="hero">
+                <picture>
+                <source media="(min-width: 1080px)" srcset="images/hero-img-large.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/hero-img-medium.jpg">
                 <img id="hero-img" src="images/hero-img.jpg" alt="hero image">
+                </picture>
                 <h2 id="hero-text">Welcome to FX Chamber</h2>
                 <button id="hero-button">
                     <span id="span1"></span>
@@ -68,11 +72,11 @@
             <div class="weather">
                 <h2>Weather</h2>
                 <img src="images/weather.png" alt="weather">
-                <h3>33°C</h3>
+                <h3 id="temp">33°C</h3>
                 <h3>Party Cloudy</h3>
                 <hr>
-                <p>Wind Speed:  2.5km/h</p>
-                <p>Wind Chill:  N/A</p>
+                <p>Wind Speed: <span id="speed">5km/h</span></p>
+                <p>Wind Chill: <span id="chill"></span></p>
             </div>
             <div class="join">
                 <button class="join-button">Join Us!</button>
@@ -121,7 +125,7 @@
         <div class="bottom">
             <div class="bottom1">
                 <picture>
-                <img src="images/logo_new.png" alt="bottom logo">
+                <img src="images/logo_new.webp" alt="bottom logo">
                 </picture>
                 <h3 style="font-family: 'Open Sans', sans-serif; color: #27FB6B;">Effects Experts Chamber</h3>
                 <p>Cusco, Peru</p>
@@ -141,5 +145,6 @@
         <a href="/index.html">Back</a>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

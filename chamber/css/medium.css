@@ -11,6 +11,10 @@
     .logo {
         width: 180px;
     }
+    nav .menu_items.open {
+        position: relative;
+        top: 0px;
+    }
     .menu {
         height: 100px;
     }
