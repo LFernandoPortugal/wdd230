@@ -1,0 +1,33 @@
+
+body {
+    background-color: rgba(9, 100, 93, 0.5);
+}
+main {
+    display: flex;
+    margin: 55px auto;
+	max-width: 1080px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+picture{
+    box-shadow: 15px 5px 15px 5px rgba(10, 46, 54, 0.50);
+    background-color: #0A2E36;
+}
+header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img [data-src]{
+    filter: blur(0.2em);
+}
+
+img{
+    border: 2px solid rgba(95, 95, 95, 0.452);
+    margin: 2rem;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
