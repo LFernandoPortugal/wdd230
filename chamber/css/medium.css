@@ -8,6 +8,14 @@
         width: 70%;
     }
 
+    .discover_images picture {
+        transition: 0.5s ease;
+        padding: 5px;
+    }
+    .discover_images picture:hover {
+        transform: scale(1.3);
+    }
+
     .logo {
         width: 180px;
     }

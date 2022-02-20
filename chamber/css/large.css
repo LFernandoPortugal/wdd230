@@ -146,6 +146,10 @@
     }
     /* end of the button animations */
 
+    .discover_images img {
+        width: auto;
+    }
+
     .news {
         grid-area: 3 / 2 / 4 / 3;
     }
