@@ -43,6 +43,7 @@
     .menu_items li a {
         padding: .5rem 1rem;
         text-align: center;
+        border: none;
     }
 
  /* main */
