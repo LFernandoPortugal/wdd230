@@ -11,7 +11,6 @@ if (lastVisitDays == null) {
     lastVisitText.innerHTML = "It is been: " +numberOfDays+ "days since your last visit"
 }
 
-const lastVisit = Date.parse(lastVisitDays);
 
 let daysBetween = Date.now() - lastVisitDays;
 let numberOfDays = daysBetween / factor;
