@@ -12,8 +12,12 @@
         transition: 0.5s ease;
         padding: 5px;
     }
+   
     .discover_images picture:hover {
         transform: scale(1.2);
+    }
+    .discover_images picture:hover p {
+        text-align: center;
     }
 
     .logo {
