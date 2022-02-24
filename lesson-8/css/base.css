@@ -1,0 +1,28 @@
+* {
+    font-family: Ubuntu, "sans-serif";
+    text-align: center;
+}
+
+table, th, td {
+    border: 0.2px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #E7F0ED;
+}
+
+th, td {
+    padding: 8px 5px;
+}
+
+.th1 {
+    background-color: #7FB9C2;
+}
+.th2 {
+    background-color: #628CA6;
+}
+
+table {
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.438);
+}
