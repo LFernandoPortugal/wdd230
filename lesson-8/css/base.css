@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 * {
     font-family: Ubuntu, "sans-serif";
     text-align: center;
@@ -8,6 +9,7 @@ table, th, td {
     border-collapse: collapse;
     text-align: center;
     background-color: #E7F0ED;
+    font-size: 25px;
 }
 
 th, td {
@@ -18,11 +20,30 @@ th, td {
     background-color: #7FB9C2;
 }
 .th2 {
+    color: white;
     background-color: #628CA6;
+}
+#title {
+    font-size: 30px;
+    font-weight: bold;
+}
+#bottom td {
+    font-size: 70%;
 }
 
 table {
     margin: auto;
     margin-top: 100px;
-    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, 0.438);
+    box-shadow: 5px 5px 10px 5px rgba(59, 106, 136, 0.644);
+}
+
+@media only screen and (max-width: 650px) {
+    table, th, td {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    table, th, td {
+        font-size: 15px;
+    }
 }
