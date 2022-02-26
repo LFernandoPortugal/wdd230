@@ -8,15 +8,15 @@
         width: 70%;
     }
 
-    .discover_images picture {
+    .discover_images figure {
         transition: 0.5s ease;
         padding: 5px;
     }
    
-    .discover_images picture:hover {
+    .discover_images figure:hover {
         transform: scale(1.2);
     }
-    .discover_images picture:hover p {
+    .discover_images figure:hover p {
         text-align: center;
     }
 
