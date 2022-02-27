@@ -50,3 +50,5 @@ else {
     banner.style.display = 'none';
 }
 
+// join page script
+document.querySelector('#date').value = fulldate
