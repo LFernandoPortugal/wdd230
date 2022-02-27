@@ -187,5 +187,23 @@
     header {
         font-size: 100%;
     }
-
+ /* ____________________________________________ */
+    
+    .join-section {
+        font-size: 16px;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    .membershipLevels {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+    }
+    .membershipLevels label {
+        grid-column: -1/1;
+    }
+    .membershipLevels aside {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
 }
