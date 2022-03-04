@@ -26,16 +26,16 @@ function displayProphets(prophet) {
   birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-  image.setAttribute('src', prophet.imageurl);
+  portrait.setAttribute('src', prophet.imageurl);
   portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
-  image.setAttribute('loading', 'lazy');
+  portrait.setAttribute('loading', 'lazy');
 
   // Add/append the section(card) with the h2 element
   card.appendChild(h2);
-  card.appendChild(image);
+  card.appendChild(portrait);
   card.appendChild(birthdate);
   card.appendChild(birthplace);
-  card.appendChild(portrait);
+  
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);
