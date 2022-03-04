@@ -1,6 +1,12 @@
+body {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+}
 
 header, main, footer {
-    margin: 1rem;
+    display: grid;
+    justify-content: center;
     position: relative;
 }
 h1 {
@@ -9,23 +15,32 @@ h1 {
     text-shadow: 0 0 15px #999;
     width: 100%;
     text-align: center;
+    margin: 0;
 }
-
+main {
+    margin-top: 0px;
+}
 .cards {
     margin: 1rem;
     padding: 15px;
     display: grid;
-    box-shadow: 5px 5px 26px 1px lightslategray;
+    max-width: 1080px;
+    box-shadow: 5px 5px 20px 1px rgb(82, 93, 104);
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 h2 {
     color: #54549A;
+    text-align: center;
+}
+h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
 }
 
 section {
     margin: 0.25rem;
-    padding: 0.35rem;
+    padding: 0.45rem;
     background-color: #B9B9CC;
     border: 1px solid #bbb;
     display: flex;
@@ -34,9 +49,22 @@ section {
 }
 
 img {
-    width: auto;
+    margin: auto;
+    width: 70%;
     max-width: 325px;
     box-shadow: 0 0 30px #777;
-    height: 200px;
+    height: auto;
     border: 1px solid #333;
+    box-shadow: 5px 5px 20px 1px rgb(78, 82, 87);
+}
+
+@media only screen and (max-width: 1079px) {
+    header, main, footer {
+        display: grid;
+        justify-content: inherit;
+        position: relative;
+    }
+    .cards {
+        max-width: none;
+    }
 }
