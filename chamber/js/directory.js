@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://lfernandoportugal.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -7,49 +7,36 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    const companies = jsonObject['companies'];
+    companies.forEach(displayCompanies);
   });
 
-function displayProphets(prophet) {
+function displayCompanies(company) {
   // Create elements to add to the document
   let card = document.createElement('section');
-  let h2 = document.createElement('h2');
-  let portrait = document.createElement('img');
-  let birthdate = document.createElement('h3');
-  let birthplace = document.createElement('h3');
-  let order = ``;
+  let name = document.createElement('h2');
+  let img = document.createElement('img');
+  let address = document.createElement('h3');
+  let phone = document.createElement('h3');
+  let website = document.createElement('a');
 
-  switch (prophet.order) {
-    case 1:
-      order = `${prophet.order}st`;
-      break;
-    case 2:
-      order = `${prophet.order}nd`;
-      break;
-    case 3:
-      order = `${prophet.order}rd`;
-      break;
-    default:
-      order = `${prophet.order}th`;
-  }
-  
+  // TextContent property of the name element to contain the company's name
+  name.innerHTML = `${company.name}`;
+  address.textContent = `${company.address}`;
+  phone.textContent = `${company.phone}`;
+  website.textContent = `${company.website}`;
 
-  // Change the textContent property of the h2 element to contain the prophet's full name
-  h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span>`;
-  birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-  birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+  // Image attributes
+  img.setAttribute('src', company.img);
+  img.setAttribute('alt', `${company.name}´s image`);
+  img.setAttribute('loading', 'lazy');
 
-  // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
-  portrait.setAttribute('src', prophet.imageurl);
-  portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${order} Latter-Day President`);
-  portrait.setAttribute('loading', 'lazy');
-
-  // Add/append the section(card) with the h2 element
-  card.appendChild(h2);
-  card.appendChild(birthdate);
-  card.appendChild(birthplace);
-  card.appendChild(portrait);
+  // Add/append
+  card.appendChild(name);
+  card.appendChild(img);
+  card.appendChild(address);
+  card.appendChild(phone);
+  card.appendChild(website);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);

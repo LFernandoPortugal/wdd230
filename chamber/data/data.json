@@ -8,11 +8,11 @@
         "img": "images/google.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "KFC",
+        "address": "C. Los Nogales 291, San Isidro 15073",
+        "phone": "+51 969 486 584",
+        "website": "https://www.kfc.com.pe/",
+        "img": "images/KFC.webp"
     },
     {
         "name": "Joseph",
