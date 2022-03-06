@@ -397,6 +397,9 @@ form label.top input:required:valid {
     padding: 0;
     font-size: 20px;
 }
+.cardsList {
+    display: none;
+}
 .cards {
     display: grid;
     grid-template-columns: 1fr;

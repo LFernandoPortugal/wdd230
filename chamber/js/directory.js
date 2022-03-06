@@ -44,50 +44,10 @@ function displayCompanies(company) {
 }
 
 
-document.getElementById('listView').addEventListener('click', function () {
-    document.getElementById('listView').classList.add('selected');
-    document.getElementById('cardsView').classList.remove('selected');
-    cards.classList.add('listView')
-    table = `<table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-                <th>Telephone</th>
-                <th>website</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>`;
+function showList() {
+    document.querySelector('.cardsList').style.display = "flex";
+}
 
-    cards.innerHTML = table;
-    dataRequest.forEach((c) => {
-        let tr = document.createElement('tr');
-        let name = document.createElement('th');
-        let address = document.createElement('th');
-        let phone = document.createElement('th');
-        let website = document.createElement('th');
-
-        name.textContent = c.name;
-        address.textContent = c.address;
-        phone.textContent = (c.tel == null) ? 'Not available' : c.phone;
-        website.textContent = c.website;
-
-        tr.appendChild(name);
-        tr.appendChild(address);
-        tr.appendChild(tel);
-        tr.appendChild(website);
-
-        document.querySelector('table > tbody').appendChild(tr);
-    });
-    
-});
-
-document.getElementById('cardsView').addEventListener('click', function(){
-    document.getElementById('cardsView').classList.add('selected');
-    document.getElementById('listView').classList.remove('selected');
-    cards.classList.remove('listView');
-    cards.innerHTML="";
-    dataRequest.forEach(displayCompanies);
-})
+// document.getElementById('listView').addEventListener('click', function () {
+//     document.getElementById('listView').classList.add('selected');
+//     document.getElementById('cardsView').classList.remove('selected');
