@@ -1,6 +1,9 @@
-const requestURL = 'https://lfernandoportugal.github.io/wdd230/chamber/data/data.json';
+const requestURL = "./data/data.json";
 const cards = document.querySelector('.cards');
-let dataRequest
+
+// const requestURL = 'https://lfernandoportugal.github.io/wdd230/chamber/data/data.json';
+// const requestURL = "./data/data.json";
+// const cards = document.querySelector('.cards');
 
 fetch(requestURL)
   .then(function (response) {
@@ -44,10 +47,18 @@ function displayCompanies(company) {
 }
 
 
-function showList() {
-    document.querySelector('.cardsList').style.display = "flex";
-}
+// function showList() {
+//   displayCompanies(company)
+//   document.querySelector('.cardsList').style.display = "flex";
+// }
 
-// document.getElementById('listView').addEventListener('click', function () {
-//     document.getElementById('listView').classList.add('selected');
-//     document.getElementById('cardsView').classList.remove('selected');
+
+const cardView = document.querySelector('#cardsView');
+const listView = document.querySelector('#listView');
+
+cardView.addEventListener('click', () => {cards.classList.add('cards')}, once="true");
+cardView.addEventListener('click', () => {cards.classList.remove('showList')}, once="true");
+
+listView.addEventListener('click', () => {cards.classList.add('showList')}, once="true");
+listView.addEventListener('click', () => {cards.classList.remove('cards')}, once="true");
+

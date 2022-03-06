@@ -417,3 +417,24 @@ form label.top input:required:valid {
 .cards section a {
     cursor: pointer;
 }
+
+.showList {
+    display: block;
+    text-align: left;
+}
+.showList img {
+    display: none;
+}
+.showList section h2, 
+.showList section h3,
+.showList section a {
+    margin: 5px 10px;
+    width: 100%;
+    text-align: left;
+    align-self: center;
+    font-size: 90%;
+    padding: 0;
+}
+.showList section a {
+    cursor: pointer;
+}

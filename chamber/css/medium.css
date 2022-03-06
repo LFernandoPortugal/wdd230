@@ -147,6 +147,22 @@
         width: 100%;
         height: 100%;
     }
+    .showList {
+        text-align: left;
+    }
+    .showList section {
+        display: block;
+    }
+    .showList section h2, 
+    .showList section h3,
+    .showList section a {
+        margin: 5px 10px;
+        width: 100%;
+        text-align: left;
+        align-self: center;
+        font-size: 90%;
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 840px) {
     .cards section {
@@ -162,5 +178,5 @@
     }
     .cards section img {
         width: 55%;
-    }
+    }    
 }
