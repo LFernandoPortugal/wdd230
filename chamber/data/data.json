@@ -15,74 +15,74 @@
         "img": "images/KFC.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "BBVA",
+        "address": "Jirón Sacsayhuman 15, Cusco 08003",
+        "phone": "(01) 595-0000",
+        "website": "https://www.bbva.pe/",
+        "img": "images/bbva.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Hilton Garden Inn",
+        "address": "Av. Abancay 207, Cusco 00000",
+        "phone": "(084) 580130",
+        "website": "https://www.hilton.com/en/hilton/",
+        "img": "images/hilton.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "G Adventures",
+        "address": "C. Teatro 344, Cusco 08000",
+        "phone": "416260 0999",
+        "website": "https://www.gadventures.com/",
+        "img": "images/gadventures.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Academy Mortgage",
+        "address": "339 West 13490 South Draper, UT 84020",
+        "phone": "(801) 233-3700",
+        "website": "https://academymortgage.com/",
+        "img": "images/academymortgage.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Maximo Nivel",
+        "address": "Av. El Sol 612, Cusco 08000",
+        "phone": "(084) 581800",
+        "website": "https://maximoingles.com/",
+        "img": "images/maximonivel.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Nexa Resources",
+        "address": "37A Avenue J.F. Kennedy. L-1855",
+        "phone": "+352 28 26 3727",
+        "website": "https://www.nexaresources.com/",
+        "img": "images/nexa.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Ventura Travel",
+        "address": "Arequipa, Peru",
+        "phone": "961 307 846",
+        "website": "https://www.venturatravel.org/",
+        "img": "images/ventura.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Direct TV",
+        "address": "Av. El Sol 582, Cusco 08002",
+        "phone": "+51 974 793 029",
+        "website": "https://www.directv.com",
+        "img": "images/directtv.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "ESSALUD",
+        "address": "Los Saucos 152",
+        "phone": "(084) 581150",
+        "website": "http://www.essalud.gob.pe/",
+        "img": "images/essalud.webp"
     },
     {
-        "name": "Joseph",
-        "address": "Smith",
-        "phone": "23 December 1805",
-        "website": "27 June 1844",
-        "img": 14
+        "name": "Prima AFP",
+        "address": "Micaela Bastidas 505, Cusco 08000",
+        "phone": "0-801-18010",
+        "website": "https://www.prima.com.pe/",
+        "img": "images/primaafp.webp"
     }
     ]
   }
