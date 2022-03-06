@@ -1,3 +1,15 @@
+
+const cardView = document.querySelector('.cardView');
+const listView = document.querySelector('.listView');
+
+cardView.addEventListener('click', () => {cards.classList.add('cards')}, once="true");
+cardView.addEventListener('click', () => {cards.classList.remove('switchListView')}, once="true");
+
+listView.addEventListener('click', () => {cards.classList.add('switchListView')}, once="true");
+listView.addEventListener('click', () => {cards.classList.remove('cards')}, once="true");
+
+
+
 const requestURL = 'https://lfernandoportugal.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.cards');
 
@@ -41,3 +53,4 @@ function displayCompanies(company) {
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);
 }
+
