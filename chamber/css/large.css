@@ -228,6 +228,8 @@
     .showList section {
         display: flex;
         justify-content: space-evenly;
+        margin: 10px 0 0 0;
+        box-shadow: 5px 0 5px 0 rgb(64 234 211 / 13%);
     }
     .showList section h2, 
     .showList section h3,
