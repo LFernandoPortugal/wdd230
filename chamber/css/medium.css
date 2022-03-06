@@ -132,4 +132,35 @@
         grid-column: 1/2;
         grid-row: 1/3;
     }
+    /* Directory part */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        background-color: #14CC60;
+    }
+    .cards section {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        background-color: #0A2E36;
+        width: fit-content;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .cards section {
+        font-size: 70%;
+    }
+    .cards section img {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 674px) {
+    .cards section {
+        font-size: 60%;
+    }
+    .cards section img {
+        width: 55%;
+    }
 }
