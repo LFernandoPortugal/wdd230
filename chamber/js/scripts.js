@@ -51,4 +51,4 @@ else {
 }
 
 // join page script
-document.querySelector('#date').value = fulldate
+document.querySelector('date').value = fulldate
