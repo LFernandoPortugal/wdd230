@@ -50,7 +50,7 @@ fetch(apiURL)
   });
 
 
-
+// script to uppercase
   function ponerEnMayuscula(frase) {
     if (typeof frase != 'string') {
         throw TypeError('El argumento debe ser una cadena de caracteres (texto).');
