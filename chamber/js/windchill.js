@@ -47,6 +47,7 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = ponerEnMayuscula(desc);
+    document.querySelector('#speed').textContent = `${jsObject.wind.speed} m/h`;
   });
 
 
