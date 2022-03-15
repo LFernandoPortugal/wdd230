@@ -243,6 +243,9 @@ main div {
 .join {
     display: none;
 }
+#join-button {
+    margin: 0;
+}
 .join-button {
     width: 100%;
     border-radius: 5px;
