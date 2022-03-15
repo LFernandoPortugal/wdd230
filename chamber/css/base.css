@@ -245,6 +245,7 @@ main div {
 }
 #join-button {
     margin: 0;
+    padding: 0;
 }
 .join-button {
     width: 100%;
