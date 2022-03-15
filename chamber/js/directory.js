@@ -34,6 +34,8 @@ function displayCompanies(company) {
   img.setAttribute('src', company.img);
   img.setAttribute('alt', `${company.name}´s image`);
   img.setAttribute('loading', 'lazy');
+  website.setAttribute('href',`${company.website}`);
+  website.setAttribute('target',"_blank");
 
   // Add/append
   card.appendChild(name);
