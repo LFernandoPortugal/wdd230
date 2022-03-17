@@ -40,16 +40,16 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    const t = document.querySelector('#temp').textContent = `${jsObject.main.temp.toFixed(0)} F°`;
+    document.querySelector('#temp').textContent = `${jsObject.main.temp.toFixed(0)} F°`;
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     // document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = ponerEnMayuscula(desc);
-    const s = document.querySelector('#speed').textContent = `${jsObject.wind.speed} m/h`;
-    // const t = parseFloat(document.querySelector("#temp").textContent);
-    // const s = parseFloat(document.querySelector("#speed").textContent);
+    document.querySelector('#speed').textContent = `${jsObject.wind.speed} m/h`;
+    const t = jsObject.main.temp.toFixed(0);
+    const s = jsObject.wind.speed;
 
     if(t <= 50 && s > 3) {
         const windchill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s,0.16) + 0.4275 * t * Math.pow(s,0.16)
@@ -71,3 +71,15 @@ fetch(apiURL)
 
     return palabras.map(p => p[0].toUpperCase() + p.slice(1)).join(' ');
 }
+
+// script for wind chill
+// const t = parseFloat(document.querySelector("#temp").textContent);
+// const s = parseFloat(document.querySelector("#speed").textContent);
+
+// if(t <= 50 && s > 3) {
+//     const windchill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s,0.16) + 0.4275 * t * Math.pow(s,0.16)
+//     document.querySelector("#chill").innerHTML = Math.round(windchill) + " ";
+// }
+// else {
+//     document.querySelector("#chill").innerHTML = "N/A"
+// }
