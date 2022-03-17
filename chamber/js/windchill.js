@@ -71,15 +71,3 @@ fetch(apiURL)
 
     return palabras.map(p => p[0].toUpperCase() + p.slice(1)).join(' ');
 }
-
-// script for wind chill
-// const t = parseFloat(document.querySelector("#temp").textContent);
-// const s = parseFloat(document.querySelector("#speed").textContent);
-
-// if(t <= 50 && s > 3) {
-//     const windchill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s,0.16) + 0.4275 * t * Math.pow(s,0.16)
-//     document.querySelector("#chill").innerHTML = Math.round(windchill) + " ";
-// }
-// else {
-//     document.querySelector("#chill").innerHTML = "N/A"
-// }
