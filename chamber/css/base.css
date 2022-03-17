@@ -262,6 +262,7 @@ main div {
     box-shadow: 0 0 10px #006BB8, 0 0 30px #006BB8, 0 0 60px #006BB8;
     font-size: 1.2em;
 }
+/* join page */
 
 .spotlight3 {
     display: none;
@@ -371,6 +372,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    cursor: pointer;
 }
 form label.top input:required {
     border-left: red solid 6px;
