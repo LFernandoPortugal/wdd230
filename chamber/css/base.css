@@ -444,3 +444,19 @@ form label.top input:required:valid {
 .showList section a {
     cursor: pointer;
 }
+
+/* Contact part */
+
+.contact-section, .contact-section aside {
+    display: block;
+    background-color: #8FE7B4;
+}
+.contact-section, .contact-section div p {
+    background-color: #8FE7B4;
+}
+.map {
+    background-color: #8FE7B4;
+    height: 300px;
+    padding: 0;
+    margin: 40px;
+}

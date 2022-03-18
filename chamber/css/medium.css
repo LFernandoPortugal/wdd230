@@ -163,6 +163,14 @@
         font-size: 90%;
         padding: 0;
     }
+    .contact-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .map {
+        height: 300px;
+    }
 }
 @media only screen and (max-width: 840px) {
     .cards section {
@@ -170,6 +178,9 @@
     }
     .cards section img {
         width: 70%;
+    }
+    .contact-section {
+        display: block;
     }
 }
 @media only screen and (max-width: 674px) {

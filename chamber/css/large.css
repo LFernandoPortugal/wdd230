@@ -239,4 +239,15 @@
         text-align: left;
         align-self: center;
     }
+    
+    /* Contact part */
+    .contact-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+    .map {
+        height: 400px;
+        margin: 40px;
+    }
 }

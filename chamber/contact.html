@@ -7,7 +7,7 @@
     <meta name="author" content="Luis Portugal">
     <meta name="description" content="Chamber Website by Luis Portugal
     in WDD 230 at Brigham Young University - Idaho">
-    <title>Join Page | Luis Fernando Portugal</title>
+    <title>Effects Experts Chamber Website | Luis Fernando Portugal</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -35,7 +35,7 @@
                 <li><a href="discover.html">Discover</a></li> 
                 <li><a href="directory.html">Directory</a></li> 
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         </div>
@@ -47,59 +47,25 @@
         <div id="top-banner">
             <h2>🤝🏼 Come join us now!</h2>
         </div>
-        <section class="join-section">
-            <form method="get" action="thankyou.html">
+        <section class="contact-section">
+            <form method="get" action="contact-thanks.html">
                 <fieldset>
-                    <legend>Contact Info</legend>
+                    <legend>Contact Form</legend>
                     <label class="top" for="fname">First Name*<input type="text" id="fname" name="fname" pattern="[a-zA-ZÁ-ÿ\s]{1,50}" required></label>
                     <label class="top" for="lname">Last Name*<input type="text" id="lname" name="lname" pattern="[a-zA-ZÁ-ÿ\s]{1,50}" required></label>
                     <label class="top" for="email">Email*<input type="email" id="email" name="email" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" placeholder="someone@gmail.com" required></label>
-                        <label class="top" for="phone">Phone*<input type="tel" id="phone" name="phone" pattern="^\d{7,14}$" placeholder="123455534211" title="Type at least 7 digits" required ></label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Business Info</legend>
-                    <label class="top" for="position-title">Business Position Title<input type="text" id="position-title" name="position-title" 
-                        pattern="[a-zA-Z\s-]{7,}" title="It only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"/></label>
+                
                     <label class="top" for="business-name">Business Name*<input type="text" id="business-name" name="business-name" required /></label>
-                    <label class="top" for="description">Business Description<textarea rows="3" id="description" name="description" ></textarea></label>
+                    <label class="top" for="description">What questions do you have for the Effects Experts Chamber?<textarea rows="3" id="description" name="description" placeholder="Describe your question"></textarea></label>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Membership Levels</legend>
-                    <div class="membershipLevels">
-                    <div>
-                    <label class="sbs"><input type="radio" name="member" value="np"/> Non-profit - Free</label>
-                    <label class="sbs"><input type="radio" name="member" value="bronze"/> Bronze - $400</label>
-                    <label class="sbs"><input type="radio" name="member" value="silver"/> Silver - $1,000</label>
-                    <label class="sbs"><input type="radio" name="member" value="gold"/> Gold - $5,000</label>
-                    </div>
-                    <aside>
-                        <h2>Membership Info</h2>
-                        <div class="levelsinfo">
-                        <h3>Non-profit Membership</h3>
-                        <p>For non profit organziations, there is no fee.</p>
-                        </div>
-                        <div class="levelsinfo">
-                        <h3>Bronze Membership: $400</h3>
-                        <p>For those with a small budget. This provides some seminars and courses.</p>
-                        </div>
-                        <div class="levelsinfo">
-                        <h3>Silver Membership: $1,000</h3>
-                        <p>Includes some discounts on events and special invitations.</p>
-                        </div>
-                        <div class="levelsinfo">
-                        <h3>Gold Membership: $5,000</h3>
-                        <p>You have complete access to everywhere on the page and have a lot of trainings available.</p>
-                        </div>
-                    </aside>
-                    </div>
-                </fieldset>
                 <label><input type="hidden" id="date" name="date"></label>
-                <input type="submit" class="submitBtn" value="Join!">
+                <input type="submit" class="submitBtn" value="Submit">
             </form>
-            
-        </section class="join-section">
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62065.47509478186!2d-71.97435442800223!3d-13.529933403550254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd5d826598431%3A0x2aa996cc2318315d!2sCusco!5e0!3m2!1ses-419!2spe!4v1647632803782!5m2!1ses-419!2spe" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+         
+        </section>
     </main>
     <footer>
         <div class="bottom">
@@ -121,8 +87,10 @@
                  | <strong>L. Fernando Portugal</strong> | WDD 230 Project 
                  | Last Updated: <span id="lastmodified"></span>
             </p>
-            <p id="weatherSource">Weather data source from: 
-                <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap Site</a></p>
+            <!-- <p>The current conditions icon path is "
+                <span id="icon-src"></span>"</p> -->
+                <p id="weatherSource">Weather data source from: 
+                    <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap Site</a></p>
         </div>
         <a href="/index.html">Back</a>
     </footer>
