@@ -171,6 +171,9 @@
     .map {
         height: 300px;
     }
+    .map-container {
+        margin-top: 40px;
+    }
 }
 @media only screen and (max-width: 840px) {
     .cards section {

@@ -458,5 +458,10 @@ form label.top input:required:valid {
     background-color: #8FE7B4;
     height: 300px;
     padding: 0;
-    margin: 40px;
+    margin: 10px;
+}
+.map-container {
+    background-color: #8FE7B4;
+    padding: 0;
+    margin-top: 40px;
 }
