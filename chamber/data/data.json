@@ -5,84 +5,96 @@
         "address": "10th Street NE Atlanta, GA 30309 Estados Unidos.",
         "phone": "+1 734-332-6500",
         "website": "https://www.google.com.pe/",
-        "img": "images/google.webp"
+        "img": "images/google.webp",
+        "status": "bronze"
     },
     {
         "name": "KFC",
         "address": "C. Los Nogales 291, San Isidro 15073",
         "phone": "+51 969 486 584",
         "website": "https://www.kfc.com.pe/",
-        "img": "images/KFC.webp"
+        "img": "images/KFC.webp",
+        "status": "silver"
     },
     {
         "name": "BBVA",
         "address": "Jirón Sacsayhuman 15, Cusco 08003",
         "phone": "(01) 595-0000",
         "website": "https://www.bbva.pe/",
-        "img": "images/bbva.webp"
+        "img": "images/bbva.webp",
+        "status": "gold"
     },
     {
         "name": "Hilton Garden Inn",
         "address": "Av. Abancay 207, Cusco 00000",
         "phone": "(084) 580130",
         "website": "https://www.hilton.com/en/hilton/",
-        "img": "images/hilton.webp"
+        "img": "images/hilton.webp",
+        "status": "bronze"
     },
     {
         "name": "G Adventures",
         "address": "C. Teatro 344, Cusco 08000",
         "phone": "416260 0999",
         "website": "https://www.gadventures.com/",
-        "img": "images/gadventures.webp"
+        "img": "images/gadventures.webp",
+        "status": "silver"
     },
     {
         "name": "Academy Mortgage",
         "address": "339 West 13490 South Draper, UT 84020",
         "phone": "(801) 233-3700",
         "website": "https://academymortgage.com/",
-        "img": "images/academymortgage.webp"
+        "img": "images/academymortgage.webp",
+        "status": "gold"
     },
     {
         "name": "Maximo Nivel",
         "address": "Av. El Sol 612, Cusco 08000",
         "phone": "(084) 581800",
         "website": "https://maximoingles.com/",
-        "img": "images/maximonivel.webp"
+        "img": "images/maximonivel.webp",
+        "status": "bronze"
     },
     {
         "name": "Nexa Resources",
         "address": "37A Avenue J.F. Kennedy. L-1855",
         "phone": "+352 28 26 3727",
         "website": "https://www.nexaresources.com/",
-        "img": "images/nexa.webp"
+        "img": "images/nexa.webp",
+        "status": "silver"
     },
     {
         "name": "Ventura Travel",
         "address": "Arequipa, Peru",
         "phone": "961 307 846",
         "website": "https://www.venturatravel.org/",
-        "img": "images/ventura.webp"
+        "img": "images/ventura.webp",
+        "status": "gold"
     },
     {
         "name": "Direct TV",
         "address": "Av. El Sol 582, Cusco 08002",
         "phone": "+51 974 793 029",
         "website": "https://www.directv.com",
-        "img": "images/directtv.webp"
+        "img": "images/directtv.webp",
+        "status": "bronze"
     },
     {
         "name": "ESSALUD",
         "address": "Los Saucos 152",
         "phone": "(084) 581150",
         "website": "http://www.essalud.gob.pe/",
-        "img": "images/essalud.webp"
+        "img": "images/essalud.webp",
+        "status": "silver"
     },
     {
         "name": "Prima AFP",
         "address": "Micaela Bastidas 505, Cusco 08000",
         "phone": "0-801-18010",
         "website": "https://www.prima.com.pe/",
-        "img": "images/primaafp.webp"
+        "img": "images/primaafp.webp",
+        "status": "gold"
     }
     ]
   }
