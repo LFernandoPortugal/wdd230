@@ -49,12 +49,6 @@ function displayCompanies(company) {
 }
 
 
-// function showList() {
-//   displayCompanies(company)
-//   document.querySelector('.cardsList').style.display = "flex";
-// }
-
-
 const cardView = document.querySelector('#cardsView');
 const listView = document.querySelector('#listView');
 
