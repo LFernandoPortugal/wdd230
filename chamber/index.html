@@ -50,17 +50,17 @@
         <section>
             <div class="hero">
                 <picture>
-                <source media="(min-width: 1080px)" srcset="images/hero-img-large.jpg">
-                <source media="(min-width: 37.5em)" srcset="images/hero-img-medium.jpg">
-                <img id="hero-img" src="images/hero-img.jpg" alt="hero image">
+                <source media="(min-width: 1080px)" srcset="images/hero-img-large.webp">
+                <source media="(min-width: 37.5em)" srcset="images/hero-img-medium.webp">
+                <img id="hero-img" src="images/hero-img-small.webp" alt="hero image">
                 </picture>
                 <h2 id="hero-text">Welcome to FX Chamber</h2>
-                <a href="join.html"><button id="hero-button">
+                <button id="hero-button" onclick="window.location.href = 'join.html';">
                     <span id="span1"></span>
                     <span id="span2"></span>
                     <span id="span3"></span>
                     <span id="span4"></span>
-                    Join Now</button></a>
+                    Join Now</button>
             </div>
             <div class="event">
                 <h2>Annual Celebration</h2>
@@ -71,7 +71,7 @@
             </div>
             <div class="weather">
                 <h2>Weather</h2>
-                <figure><img src="#" alt="" id="weathericon" />  <h3><figcaption></figcaption></h3></figure>
+                <figure><img src="#" alt="" id="weathericon" />  <figcaption style="font-size: 24px;"></figcaption></figure>
                 <h3 id="temp"></h3>
                 <hr>
                 <p>Wind Speed: <span id="speed"></span></p>
@@ -79,7 +79,7 @@
                 
             </div>
             <div class="join">
-                <a id="join-button" href="join.html"><button class="join-button"> Join Us!</button></a>
+                <button id="join-button" class="join-button" onclick="window.location.href = 'join.html';"> Join Us!</button>
                 <p>Discover how to join the chamber of commerce and how
                     it will benefit your organization!
                 </p>
