@@ -22,7 +22,7 @@ y.onclick = toggleMenu;
 
 
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
+const datefield = document.querySelector(".date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
 // derive the current date using a date object
@@ -51,4 +51,4 @@ else {
 }
 
 // join page script
-document.querySelector('date').value = fulldate
+// document.querySelector('date').value = fulldate
