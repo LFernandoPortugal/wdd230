@@ -52,8 +52,4 @@ fetch(requestURL)
   
     // Add/append the existing HTML div with the cards class with the section(card)
     // cards.appendChild(card);
-    
-    // cards.appendChild(spot1);
-    // cards.appendChild(spot2);
-    // cards.appendChild(spot3);
   }

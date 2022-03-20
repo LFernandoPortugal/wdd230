@@ -84,8 +84,8 @@ nav .menu_items.open  {display: block;
     border-top: 1px solid rgba(0,0,0,0.5) ;
 }
 
-.menu_items li.active a {
-    background-color: rgba(0,0,0,0.2);
+.active {
+    background-color: rgba(0, 0, 0, 0.466);
     color: #27FB6B;
 }
 
