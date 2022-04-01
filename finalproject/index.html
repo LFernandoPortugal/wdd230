@@ -6,28 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luis F. Portugal">
     <title>Temple Inn & Suites Site | by Luis Fernando Portugal</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    
+    <!--=============== REMIX ICONS ===============-->
+    <link href="css/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-    <header>
-        <div>
-        <a href="index.html"><img class="logo" src="images/logo_new.webp" 
-            alt="Navigation Logo"></a>
-        <h1>Effects Experts Chamber</h1>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank"><img src="images/facebook_icon.png" alt=""></a>
-            <a href="https://youtube.com"><img src="images/youtube_icon.png" alt=""></a>
-        
-        </div>
-        <nav class="menu">
-            <button id="hamburgerBtn" ><span>&#9776;</span><span>X</span></button>
-            <ul class="menu_items" id="nav">
-                <li><a class="active" href="index.html">Home</a></li> 
-                <li><a href="#">Temple</a></li> 
-                <li><a href="#">Reservation</a></li> 
-                <li><a href="#">Services</a></li>
-            </ul>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo_container">
+            <a href="#" class="nav_logo">
+                <!-- <i class="ri-steering-line"></i>
+                Temple Inn & Suites -->
+                <img src="images/logo1.webp" alt="logo">
+                <div class="logo_hover"></div>
+            </a>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Temple" class="nav_link">Temple</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Reservation" class="nav_link">Reservation</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Services" class="nav_link">Services</a>
+                    </li>
+                </ul>
+                
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle part -->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+                
+            </div>
         </nav>
-        </div>    
     </header>
+    <!-- JS files -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
