@@ -1,0 +1,76 @@
+{
+    "temples": [
+    {
+        "name": "Arequipa Peru Temple",
+        "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
+        "phone": "(51) 54-640-300",
+        "email": " ",
+        "img": "images/arequipa_temple.webp",
+        "services": "No clothing rental available \nNo cafeteria available \nNo patron housing available \nDistribution center nearby",
+        "history": "The Arequipa Temple was dedicated in four sessions on December 15, 2019, by Ulisses Soares, a member of the Quorum of the Twelve Apostles. It is located in the Cayma district north of the city of Arequipa, Peru.",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    },
+    {
+        "name": "KFC",
+        "address": "C. Los Nogales 291, San Isidro 15073",
+        "phone": "+51 969 486 584",
+        "email": "https://www.kfc.com.pe/",
+        "img": "images/KFC.webp",
+        "services": "silver",
+        "history": "bronze",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    },
+    {
+        "name": "BBVA",
+        "address": "Jirón Sacsayhuman 15, Cusco 08003",
+        "phone": "(01) 595-0000",
+        "email": "https://www.bbva.pe/",
+        "img": "images/bbva.webp",
+        "services": "gold",
+        "history": "bronze",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    },
+    {
+        "name": "Hilton Garden Inn",
+        "address": "Av. Abancay 207, Cusco 00000",
+        "phone": "(084) 580130",
+        "email": "https://www.hilton.com/en/hilton/",
+        "img": "images/hilton.webp",
+        "services": "bronze",
+        "history": "bronze",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    },
+    {
+        "name": "G Adventures",
+        "address": "C. Teatro 344, Cusco 08000",
+        "phone": "416260 0999",
+        "email": "https://www.gadventures.com/",
+        "img": "images/gadventures.webp",
+        "services": "silver",
+        "history": "bronze",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    },
+    {
+        "name": "Academy Mortgage",
+        "address": "339 West 13490 South Draper, UT 84020",
+        "phone": "(801) 233-3700",
+        "email": "https://academymortgage.com/",
+        "img": "images/academymortgage.webp",
+        "services": "gold",
+        "history": "bronze",
+        "ordinance": "bronze",
+        "session": "bronze",
+        "closure": "bronze"
+    }
+    ]
+  }

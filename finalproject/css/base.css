@@ -235,7 +235,9 @@ img {
 }
 
 /* Active link */
-
+.active {
+  text-decoration: underline overline hsla(39, 23%, 59%, 0.418);
+}
 
 /*=============== HOME ===============*/
 .home {
