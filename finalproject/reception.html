@@ -42,7 +42,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="index.html" class="nav_link active">Home</a>
+                        <a href="index.html" class="nav_link">Home</a>
                     </li>
                     <li class="nav_item">
                         <a href="temple.html" class="nav_link">Temple</a>
@@ -51,7 +51,7 @@
                         <a href="reservation.html" class="nav_link">Reservation</a>
                     </li>
                     <li class="nav_item">
-                        <a href="services.html" class="nav_link">Services</a>
+                        <a href="services.html" class="nav_link active">Services</a>
                     </li>
                 </ul>
                 
@@ -70,68 +70,50 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
-        <section class="home section" id="home">
-            <picture>
-                <!-- <source media="(min-width: 1080px)" srcset="images/hero-img-large.webp">
-                <source media="(min-width: 37.5em)" srcset="images/hero-img-medium.webp"> -->
-                <img class="home_img" id="home-img" src="images/home_img.webp" alt="Home image: view of a hotel">
-            </picture>
-            <div class="home_container container grid">
-                <div class="home_titles">
-                <h1 class="home_title" id="home-title">The choice is yours</h1>
-                <h2 class="home_subtitle">Surprisingly Affordable Luxury</h2>
-                <h3 class="home_subtitle">Hotel RL Salt Lake City</h3>
-                </div>
-                <button id="home-button" onclick="window.location.href = 'reservation.html';">
-                    <span id="span1"></span>
-                    <span id="span2"></span>
-                    <span id="span3"></span>
-                    <span id="span4"></span>
-                    Make a Reservation</button>
-            </div>
-        </section>
-        <section class="home section grid">
-            <div class="home_info home_container container">
-                <h2 class="home_title2">Trujillo Peru Temple</h2>
-                <p class="home_info_temple">
-                    The Trujillo Peru Temple is one of several temples built and operated 
-                    by the Church of Jesus Christ of Latter-day Saints located in the city 
-                    of Trujillo, Peru. It was dedicated on Sunday, June 21, 2015, by Second 
-                    Counselor in the First Presidency Dieter F. Uchtdorf.
-
-                </p>
-            </div>
-            <div class="container">
-                <h2 class="home_weather">Weather</h2>
-                <p id="current-date"></p>
-                <figure><img src="#" alt="" id="weathericon" />  <figcaption style="font-size: 20px;"></figcaption></figure>
-                <h3 id="temp"></h3>
-                <hr>
-                <p>Humidity: <span id="humidity"></span></p>
-                <p>Alert: <span id="alert"></span></p>
-            </div>
-            <div class="container">
-                <h2 class="home_weather_forecast">Forecast</h2>
-                <p>This is a three day forecast.</p>
-                <div class="forecast1">
-                    <figure><img src="#" alt="" id="weathericon1" />  <figcaption id="figcaption1" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp1"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity1"></span></p>
-                </div>
-                <div class="forecast2">
-                    <figure><img src="#" alt="" id="weathericon2" />  <figcaption id="figcaption2" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp2"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity2"></span></p>
-                </div>
-                <div class="forecast3">
-                    <figure><img src="#" alt="" id="weathericon3" />  <figcaption id="figcaption3" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp3"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity3"></span></p>
-                </div>
+        <section class="services section" id="services">
+            <div class="services_container container grid">
+                <h1>Wedding Reception</h1>
+                <p>The most important part of your wedding day will be the sacred marriage ceremony. <br>
+                    If you are having a reception or any other type of celebration after the temple wedding, keep it simple.</p>
                 
+                <div class="services_amenities">
+                    <h2>Accomodations</h2>
+                    <ul>
+                        <li><img src="images/wedding1.jpg" alt="wedding reception"></li>
+                        <li><img src="images/wedding2.jpg" alt="second wedding reception"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="services_special">
+                    <h2>Food service and setup</h2>
+                    <ul>
+                        <li>
+                            <h3>Aperitif Catering</h3>
+                            <p>This service lasts between 15 to 30 minutes. It is made based on a calculation of 2 bites per person.</p>
+                        </li>
+                        <li>
+                            <h3>Brunch Catering</h3>
+                            <p>It is the combination of breakfast and lunch, its estimated service time is at 11 am and its approximate duration is 1 hour and a half.</p>
+                        </li>
+                        <li>
+                            <h3>Catering Reception</h3>
+                            <p>It lasts approximately 3 hours and is often done at 8:00 p.m., 2/3 are salty and 1/3 sweet.</p>
+                        </li>
+                        <li>
+                            <h3>Catering Buffet Reception</h3>
+                            <p>Like the previous one, its duration is 3 hours and the estimated time is at 8:00 p.m. But in this case, varieties of hot and cold dishes and side dishes are offered.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="services_special">
+                    <h2>Traditions and Photography</h2>
+                    <p>You may have seen people throwing rice, honking horns, or decorating vehicles at weddings. None of that is appropriate on temple grounds. <br>
+                        Obviously, photography is not allowed inside the temple, but wedding photos can be taken anywhere else on the temple grounds.</p>
+                </div>
             </div>
         </section>
     </main>

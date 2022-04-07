@@ -42,13 +42,13 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="index.html" class="nav_link active">Home</a>
+                        <a href="index.html" class="nav_link">Home</a>
                     </li>
                     <li class="nav_item">
                         <a href="temple.html" class="nav_link">Temple</a>
                     </li>
                     <li class="nav_item">
-                        <a href="reservation.html" class="nav_link">Reservation</a>
+                        <a href="reservation.html" class="nav_link active">Reservation</a>
                     </li>
                     <li class="nav_item">
                         <a href="services.html" class="nav_link">Services</a>
@@ -70,68 +70,10 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
-        <section class="home section" id="home">
-            <picture>
-                <!-- <source media="(min-width: 1080px)" srcset="images/hero-img-large.webp">
-                <source media="(min-width: 37.5em)" srcset="images/hero-img-medium.webp"> -->
-                <img class="home_img" id="home-img" src="images/home_img.webp" alt="Home image: view of a hotel">
-            </picture>
-            <div class="home_container container grid">
-                <div class="home_titles">
-                <h1 class="home_title" id="home-title">The choice is yours</h1>
-                <h2 class="home_subtitle">Surprisingly Affordable Luxury</h2>
-                <h3 class="home_subtitle">Hotel RL Salt Lake City</h3>
-                </div>
-                <button id="home-button" onclick="window.location.href = 'reservation.html';">
-                    <span id="span1"></span>
-                    <span id="span2"></span>
-                    <span id="span3"></span>
-                    <span id="span4"></span>
-                    Make a Reservation</button>
-            </div>
-        </section>
-        <section class="home section grid">
-            <div class="home_info home_container container">
-                <h2 class="home_title2">Trujillo Peru Temple</h2>
-                <p class="home_info_temple">
-                    The Trujillo Peru Temple is one of several temples built and operated 
-                    by the Church of Jesus Christ of Latter-day Saints located in the city 
-                    of Trujillo, Peru. It was dedicated on Sunday, June 21, 2015, by Second 
-                    Counselor in the First Presidency Dieter F. Uchtdorf.
-
-                </p>
-            </div>
-            <div class="container">
-                <h2 class="home_weather">Weather</h2>
-                <p id="current-date"></p>
-                <figure><img src="#" alt="" id="weathericon" />  <figcaption style="font-size: 20px;"></figcaption></figure>
-                <h3 id="temp"></h3>
-                <hr>
-                <p>Humidity: <span id="humidity"></span></p>
-                <p>Alert: <span id="alert"></span></p>
-            </div>
-            <div class="container">
-                <h2 class="home_weather_forecast">Forecast</h2>
-                <p>This is a three day forecast.</p>
-                <div class="forecast1">
-                    <figure><img src="#" alt="" id="weathericon1" />  <figcaption id="figcaption1" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp1"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity1"></span></p>
-                </div>
-                <div class="forecast2">
-                    <figure><img src="#" alt="" id="weathericon2" />  <figcaption id="figcaption2" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp2"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity2"></span></p>
-                </div>
-                <div class="forecast3">
-                    <figure><img src="#" alt="" id="weathericon3" />  <figcaption id="figcaption3" style="font-size: 18px;"></figcaption></figure>
-                    <h3 id="temp3"></h3>
-                    <hr>
-                    <p>Humidity: <span id="humidity3"></span></p>
-                </div>
-                
+        <section class="thankyou_section container section">
+            <div>
+                <h2>Your reservation has been processed correctly.</h2>
+                <p>Thanks for choosing us. We will get back to you within a day to help you answer any question.</p>
             </div>
         </section>
     </main>
@@ -198,6 +140,5 @@
     </footer>
     <!-- JS files -->
     <script src="js/scripts.js"></script>
-    <script src="js/weather.js"></script>
 </body>
 </html>
