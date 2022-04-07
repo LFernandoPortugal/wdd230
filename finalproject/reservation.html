@@ -71,6 +71,7 @@
     <!--==================== MAIN ====================-->
     <main class="main">
         <section class="reservation_section container section">
+            <h1 style="display: none;">&nbsp;</h1>
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Hotel Info</legend>
@@ -78,7 +79,7 @@
                     <label class="top" for="date">Date*<input type="date" id="date" name="date" required></label>
                     <label class="top" for="room_number">Number of room*<input type="number" id="room_number" name="room_number" placeholder="001" min="0" required></label>
                     <!-- Type of room -->
-                    <label class="top" for="room">Type of room*</label>
+                    <label class="top">Type of room*</label>
                     <label class="sbs"><input type="radio" name="room" value="Single" required> Single</label>
                     <label class="sbs"><input type="radio" name="room" value="Double" required> Double</label>
                     <label class="sbs"><input type="radio" name="room" value="King/Queen" required> King/Queen</label>
@@ -97,7 +98,6 @@
                     <label class="top" for="description">Accomodations/Comments <textarea rows="3" id="description" name="description" placeholder="If you have any request or suggestion, please indicate it here."></textarea></label>
                 </fieldset>
 
-                <label><input type="hidden" id="date" name="date"></label>
                 <input type="submit" class="submitBtn" value="Reserve Now">
             </form>
          
