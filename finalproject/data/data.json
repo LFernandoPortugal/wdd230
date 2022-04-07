@@ -4,73 +4,73 @@
         "name": "Arequipa Peru Temple",
         "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
         "phone": "(51) 54-640-300",
-        "email": " ",
+        "email": "temple@chucrchofjesuschrist.org",
         "img": "images/arequipa_temple.webp",
-        "services": "No clothing rental available \nNo cafeteria available \nNo patron housing available \nDistribution center nearby",
+        "services": "<h3>Services</h3><br>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
         "history": "The Arequipa Temple was dedicated in four sessions on December 15, 2019, by Ulisses Soares, a member of the Quorum of the Twelve Apostles. It is located in the Cayma district north of the city of Arequipa, Peru.",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "All ordinances are available by appointment only",
+        "session": "Not available",
+        "closure": "Not available"
     },
     {
-        "name": "KFC",
-        "address": "C. Los Nogales 291, San Isidro 15073",
-        "phone": "+51 969 486 584",
-        "email": "https://www.kfc.com.pe/",
-        "img": "images/KFC.webp",
-        "services": "silver",
+        "name": "Hong Kong China Temple",
+        "address": "2 Cornwall St Kowloon Tong Kowloon City, Hong Kong",
+        "phone": "+852 2339 8100",
+        "email": "temple@chucrchofjesuschrist.org",
+        "img": "images/hong_kong_temple.webp",
+        "services": "No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
         "history": "bronze",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "All ordinances are available by appointment only",
+        "session": "Not available",
+        "closure": "Not available"
     },
     {
-        "name": "BBVA",
-        "address": "Jirón Sacsayhuman 15, Cusco 08003",
-        "phone": "(01) 595-0000",
-        "email": "https://www.bbva.pe/",
-        "img": "images/bbva.webp",
-        "services": "gold",
+        "name": "Trujillo Peru Temple",
+        "address": "Av. Mansiche Km 3.5 Carretera toward Huanchaco, Huanchaco, Trujillo, La Libertad, Peru",
+        "phone": "(51) 44-602-130",
+        "email": "temple@chucrchofjesuschrist.org",
+        "img": "images/trujillo_temple.webp",
+        "services": "No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
         "history": "bronze",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "All ordinances are available by appointment only",
+        "session": "Not available",
+        "closure": "Monday, 28 March 2022 - Monday, 6 June 2022 <br>Thursday, 28 July 2022 - Friday, 29 July 2022 <br>Saturday, 1 October 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022"
     },
     {
         "name": "Hilton Garden Inn",
         "address": "Av. Abancay 207, Cusco 00000",
         "phone": "(084) 580130",
-        "email": "https://www.hilton.com/en/hilton/",
+        "email": "temple@chucrchofjesuschrist.org",
         "img": "images/hilton.webp",
         "services": "bronze",
         "history": "bronze",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "Not available",
+        "session": "Not available",
+        "closure": "Not available"
     },
     {
         "name": "G Adventures",
         "address": "C. Teatro 344, Cusco 08000",
         "phone": "416260 0999",
-        "email": "https://www.gadventures.com/",
+        "email": "temple@chucrchofjesuschrist.org",
         "img": "images/gadventures.webp",
         "services": "silver",
         "history": "bronze",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "Not available",
+        "session": "Not available",
+        "closure": "Not available"
     },
     {
         "name": "Academy Mortgage",
         "address": "339 West 13490 South Draper, UT 84020",
         "phone": "(801) 233-3700",
-        "email": "https://academymortgage.com/",
+        "email": "temple@chucrchofjesuschrist.org",
         "img": "images/academymortgage.webp",
         "services": "gold",
         "history": "bronze",
-        "ordinance": "bronze",
-        "session": "bronze",
-        "closure": "bronze"
+        "ordinance": "Not available",
+        "session": "Not available",
+        "closure": "Not available"
     }
     ]
   }
