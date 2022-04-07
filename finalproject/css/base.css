@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: var(--title-color);
+  color: var(--body-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -237,6 +237,7 @@ img {
 /* Active link */
 .active {
   text-decoration: underline overline hsla(39, 23%, 59%, 0.418);
+  background-color: var(--title-color);
 }
 
 /*=============== HOME ===============*/
@@ -269,9 +270,7 @@ img {
 .home_img {
   position: absolute;
   object-fit: cover;
-  /* background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
+  
 }
 
 @media screen and (max-width:320px) {
@@ -370,18 +369,30 @@ hr {
 }
 
 /* ============ RESERVATION =========== */
+.cards {
+  background-color: #192537;
+  padding: 1em;
+  gap: 2rem;
+}
+
+
+/*  RESERVATION FORM */
 form fieldset {
   margin: 2rem 0;
   border: 1px solid var(--first-color-alt);
   border-radius: 10px;
   padding: .5rem 2%;
+  background: #1925379a ;
 }
 form {
-  background-color: #192537af;
+  background-image: url(../images/background_reservation.webp);
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
 }
 form legend {
   color: var(--body-color);
+  font-weight: var(--font-semi-bold);
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -459,6 +470,15 @@ iframe {
   width: 100%;
   height: 100%;
 }
+.services_link:hover {
+  color: var(--body-color);
+  font-size: var(--h3-font-size);
+}
+.services_item1 ul{
+  padding-left: 1.2em;
+  list-style-type: disc;
+}
+.services_item2 
 
 
 /*=============== FOOTER ===============*/
