@@ -16,9 +16,9 @@ function displayTemples(temple) {
   let card = document.createElement('section');
   let name = document.createElement('h2');  
   let img = document.createElement('img');
-  let address = document.createElement('h3');
-  let phone = document.createElement('h3');
-  let email = document.createElement('a');
+  let address = document.createElement('h4');
+  let phone = document.createElement('h4');
+  let email = document.createElement('h4');
   let services = document.createElement('p');
   let history = document.createElement('p');
   let ordinance = document.createElement('p');
@@ -30,7 +30,7 @@ function displayTemples(temple) {
   phone.textContent = `${temple.phone}`;
   email.textContent = `${temple.email}`;
   services.innerHTML = `${temple.services}`;
-  history.textContent = `${temple.history}`;
+  history.innerHTML = `${temple.history}`;
   ordinance.innerHTML = `${temple.ordinance}`;
   closure.innerHTML = `${temple.closure}`;
 

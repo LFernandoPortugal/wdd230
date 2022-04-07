@@ -6,23 +6,10 @@
         "phone": "(51) 54-640-300",
         "email": "temple@chucrchofjesuschrist.org",
         "img": "images/arequipa_temple.webp",
-        "services": "<h3>Services</h3><br>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
-        "history": "The Arequipa Temple was dedicated in four sessions on December 15, 2019, by Ulisses Soares, a member of the Quorum of the Twelve Apostles. It is located in the Cayma district north of the city of Arequipa, Peru.",
-        "ordinance": "All ordinances are available by appointment only",
-        "session": "Not available",
-        "closure": "Not available"
-    },
-    {
-        "name": "Hong Kong China Temple",
-        "address": "2 Cornwall St Kowloon Tong Kowloon City, Hong Kong",
-        "phone": "+852 2339 8100",
-        "email": "temple@chucrchofjesuschrist.org",
-        "img": "images/hong_kong_temple.webp",
-        "services": "No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
-        "history": "bronze",
-        "ordinance": "All ordinances are available by appointment only",
-        "session": "Not available",
-        "closure": "Not available"
+        "services": "<h3>Services</h3>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h3>History</h3>6 October 2012 - Announced <br>4 March 2017 - Groundbreaking <br>15 December 2019 - Dedicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Thursday, 28 July 2022 - Friday, 29 July 2022 <br>Monday, 1 August 2022 - Monday, 15 August 2022 <br>Saturday, 1 October 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022"
     },
     {
         "name": "Trujillo Peru Temple",
@@ -30,47 +17,54 @@
         "phone": "(51) 44-602-130",
         "email": "temple@chucrchofjesuschrist.org",
         "img": "images/trujillo_temple.webp",
-        "services": "No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
-        "history": "bronze",
-        "ordinance": "All ordinances are available by appointment only",
-        "session": "Not available",
-        "closure": "Monday, 28 March 2022 - Monday, 6 June 2022 <br>Thursday, 28 July 2022 - Friday, 29 July 2022 <br>Saturday, 1 October 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022"
+        "services": "<h3>Services</h3>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h4>History</h4>26 November 2008 - Announced <br>14 September 2011 - Groundbreaking <br>21 June 2015 - Dedicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Monday, 28 March 2022 - Monday, 6 June 2022 <br>Thursday, 28 July 2022 - Friday, 29 July 2022 <br>Saturday, 1 October 2022 <br>Saturday, 24 December 2022 <br>Saturday, 31 December 2022"
     },
     {
-        "name": "Hilton Garden Inn",
-        "address": "Av. Abancay 207, Cusco 00000",
-        "phone": "(084) 580130",
+        "name": "Hong Kong China Temple",
+        "address": "2 Cornwall St Kowloon Tong Kowloon City, Hong Kong",
+        "phone": "+852 2339 8100",
         "email": "temple@chucrchofjesuschrist.org",
-        "img": "images/hilton.webp",
-        "services": "bronze",
-        "history": "bronze",
-        "ordinance": "Not available",
-        "session": "Not available",
-        "closure": "Not available"
+        "img": "images/hong_kong_temple.webp",
+        "services": "<h3>Services</h3>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h4>History</h4>3 October 1992 - Announced <br>22 January 1994 - Groundbreaking <br>26 May 1996 - Dedicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Temple closed during renovation"
     },
     {
-        "name": "G Adventures",
-        "address": "C. Teatro 344, Cusco 08000",
-        "phone": "416260 0999",
+        "name": "Tokyo Japan Temple",
+        "address": "5-8-10 Minami Azabu Minato-ku, Tokyo 106-0047, Japan",
+        "phone": "(081) 580130",
         "email": "temple@chucrchofjesuschrist.org",
-        "img": "images/gadventures.webp",
-        "services": "silver",
-        "history": "bronze",
-        "ordinance": "Not available",
-        "session": "Not available",
-        "closure": "Not available"
+        "img": "images/tokyo_temple.webp",
+        "services": "<h3>Services</h3>No clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h4>History</h4>9 August 1975 - Announced <br>10 April 1978 - Groundbreaking <br>27 October 1980 - Dedicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Temple closed during renovation"
     },
     {
-        "name": "Academy Mortgage",
-        "address": "339 West 13490 South Draper, UT 84020",
-        "phone": "(801) 233-3700",
+        "name": "Mesa Arizona Temple",
+        "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
+        "phone": "(1) 480-833-1211",
         "email": "temple@chucrchofjesuschrist.org",
-        "img": "images/academymortgage.webp",
-        "services": "gold",
-        "history": "bronze",
-        "ordinance": "Not available",
-        "session": "Not available",
-        "closure": "Not available"
+        "img": "images/mesa_temple.webp",
+        "services": "<h3>Services</h3>Clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h4>History</h4>1 October 1919 - Announced <br>25 April 1922 - Groundbreaking <br>23 October 1927 - Dedicated <br>15 April 1975 - Rededicated <br>12 December 2021 - Rededicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations) <br>Monday, 18 July 2022 - Monday, 1 August 2022 <br>Saturday, 1 October 2022 <br>Wednesday, 23 November 2022 (Limited Operations) <br>Thursday, 24 November 2022 <br>Saturday, 24 December 2022"
+    },
+    {
+        "name": "Guayaquil Ecuador Temple",
+        "address": "Calle Rosendo Maridueña 8845 Urdesa Norte — Guayaquil, Ecuador",
+        "phone": "(593) 4-371-8100",
+        "email": "temple@chucrchofjesuschrist.org",
+        "img": "images/guayaquil_temple.webp",
+        "services": "<h3>Services</h3>Clothing rental available <br>No cafeteria available <br>No patron housing available <br>Distribution center nearby",
+        "history": "<h4>History</h4>31 March 1982 - Announced <br>10 August 1996 - Groundbreaking <br>1 August 1999 - Dedicated",
+        "ordinance": "<h4>Ordinance</h4>All ordinances are available by appointment only",
+        "closure": "<h4>Closure</h4>Monday, 7 March 2022 - Monday, 16 May 2022 <br>Friday, 12 August 2022 - Monday, 15 August 2022 (Limited Operations) <br>Thursday, 3 November 2022 - Monday, 7 November 2022 (Limited Operations)"
     }
     ]
   }

@@ -10,7 +10,7 @@
     }
 
     .section {
-        padding: 7rem 0 2rem;
+        padding: 5rem 0 2rem;
     }
     
     .nav {
@@ -31,6 +31,11 @@
     .nav_link {
         font-size: var(--normal-font-size);
         text-transform: initial;
+    }
+
+    .forecasts {
+        display: flex;
+        justify-content: space-around;
     }
 }
   

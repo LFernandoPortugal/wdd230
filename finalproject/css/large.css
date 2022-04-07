@@ -1,51 +1,37 @@
 @media screen and (min-width: 1040px) {
     .container {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 2em;
+      margin-right: 2em;
     }
   
     .home_container {
       padding-top: 2rem;
     }
-  
-    .offer__container {
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 5rem;
-      align-items: center;
-      padding-bottom: 2rem;
+    .home {
+      grid-template-columns: 1fr 1fr;
     }
-    .offer__data,
-    .offer__title {
-      text-align: initial;
-    }
-    .offer__data {
-      margin-bottom: 0;
-    }
-    .offer__description {
-      padding-right: 6rem;
-    }
-    .offer__img {
-      width: 450px;
+    .home_info {
+        grid-column: 1/3;
     }
   
-    .footer__container {
-      grid-template-columns: repeat(4, max-content);
+    .footer_container {
+      grid-template-columns: repeat(3, max-content);
       justify-content: space-between;
+      column-gap: 2em;
     }
-    .footer__logo {
+    .footer_logo {
       column-gap: .5rem;
     }
-    .footer__title {
+    .footer_title {
       margin-bottom: 1.5rem;
     }
-    .footer__links {
+    .footer_links {
       row-gap: .75rem;
     }
-    .footer__social-link {
+    .footer_social-link {
       font-size: 1.5rem;
     }
-    .footer__copy {
-      margin-top: 8rem;
+    .footer_copy {
       padding-bottom: 1rem;
     }
   }
