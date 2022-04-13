@@ -37,5 +37,35 @@
         display: flex;
         justify-content: space-around;
     }
+
+    /* home */
+    .home_titles {
+        position: relative;
+        margin: 5% 0 20%;
+    }
+
+    /* temples */
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 0;
+        justify-items: center;
+        background-color: var(--body-font);
+    }
+    .cards section {
+        text-align: center;
+        display: block;
+        background-color: var(--first-color);
+        width: 100%;
+        padding: 1em;
+    }
+    .cards section h2 {
+        margin-bottom: 1em;
+    }
+    .cards section p {
+        margin-top: 1em;
+        text-align: left;
+    }
 }
   

@@ -244,19 +244,22 @@ img {
 .home {
   position: relative;
   overflow: hidden;
-  padding: 4.5rem 0 7em;
+}
+#home {
+  height: 400px;
 }
 .home_container {
   row-gap: 1rem;
 }
 .home_titles {
   position: relative;
-  margin: 5% 0 20%;
+  margin: 5% 0 0;
 }
 .home_titles h1,
 .home_titles h2,
 .home_titles h3 {
   background-color: hsla(216, 37%, 15%, 0.726);
+  margin: 0;
 }
 .home_title, .home_subtitle, #home-button {
   position: relative;
@@ -274,6 +277,9 @@ img {
 }
 
 @media screen and (max-width:320px) {
+  #home {
+    height: 250px;
+  }
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -454,6 +460,9 @@ form label.top input:required:valid {
 .services .container {
   background-color: #192537;
   padding: 1em;
+}
+.services_item_img p img {
+  padding: 10px 10%;
 }
 
 /* Map part */
